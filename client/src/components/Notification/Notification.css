@@ -1,0 +1,48 @@
+
+
+
+@media only screen and (max-width: 768px) {
+    .cookie{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .col-md-3 {
+        width: 20%;
+        margin-left: 0;
+        padding-left: 0px !important
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .cookie{
+        width: 55%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .col-md-8{
+        padding-right: 0px !important
+    }
+}
+
+.card-body{
+    background-color: #e5e5e5;
+    padding-bottom: 5px;
+}
+
+.btn-primary {
+    background-color: #007bc1;
+    border-color: #007bc1;
+    margin-bottom: 20px;
+    min-width: 80px;
+}
+
+.cookie-paragraph{
+    text-align: left;
+    font-size: 14px;
+}
+
+
+a{
+    color: blue !important
+}

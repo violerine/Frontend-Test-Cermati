@@ -1,0 +1,19 @@
+<div class="home" v-on:scroll="handleScroll">
+    <Notification/>
+    <Jumbotron/>
+    <Content/>
+    <transition name="slide-fade">
+        <div class="toast" v-if="newsletter" data-animation="false" data-autohide="false" id="myToast">
+            <button type="button" class="ml-2 mb-1 close close-button" @click="hideNewsletter" data-dismiss="toast" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="toast-body">
+                <h4>Get the Latest Update in web technologies</h4>
+                <p>I write articles related to web technologies, such as design trends, development tools, UI/UX case studies and reviews , and more. Sign up to my newsletter to get them all</p>
+                <input class ="input-notif" ype="text"/>
+                <button class="button-notif">Count me in !</button>
+            </div>
+        </div>
+    </transition>
+    <Footer/>
+</div>

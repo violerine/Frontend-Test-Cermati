@@ -1,0 +1,9 @@
+.card{
+    background-color:#021622;
+    color: white;
+}
+
+.card-body{
+    text-align: left;
+    margin-left: 10%;
+}
